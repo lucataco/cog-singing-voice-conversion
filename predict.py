@@ -52,7 +52,7 @@ class Predictor(BasePredictor):
     ) -> Path:
         """Run a single prediction on the model"""
         # Change to the working directory
-        os.chdir("Amphion")
+        os.chdir("/src/Amphion")
 
         # Clean past runs
         input_audio_folder = "/tmp/input_audio"
